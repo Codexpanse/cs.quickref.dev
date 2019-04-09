@@ -1,0 +1,34 @@
+nav.md-nav {
+  overflow: visible !important;
+  max-height: 100% !important;
+}
+
+.nav.md-nav.md-nav--secondary {
+  display: none !important;
+}
+
+label.md-nav__title.md-nav__title--site {
+  display: none;
+}
+
+
+nav.md-nav.md-nav--primary > ul.md-nav__list > :first-child {
+  display: none !important;
+}
+
+.js .md-nav__item--nested>.md-nav__link:after {
+  content: "";
+}
+
+.md-nav__item {
+  margin-bottom: 1rem;
+}
+
+
+/* Do not show sidebar in article */
+.md-content {
+  margin-right: 0;
+}
+div.md-sidebar.md-sidebar--secondary {
+  display: none;
+}

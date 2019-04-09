@@ -1,0 +1,11 @@
+site_name: Clear CS
+
+theme:
+  favicon: 'images/favicon.png'
+  name: 'material'
+  font:
+    text: 'Verdana'
+    code: 'Consolas'
+
+extra_css:
+  - 'stylesheets/extra.css'
