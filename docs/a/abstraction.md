@@ -1,3 +1,5 @@
+# Abstraction
+
 ### Level 1
 
 The process of ignoring some less important details in order to focus on the essentials. In the context of computer programming, abstraction allows you to think about code in a more human-friendly, easy to understand way.
@@ -26,3 +28,15 @@ In the context of programming and data: the basic idea of data abstraction is to
 - [What is abstraction in programming? (Quora answer)](https://www.quora.com/What-is-abstraction-in-programming)
 - [Abstraction (wikipedia)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
 - [Foundations of Computer Science/Abstraction and Recursion (wikibooks)](https://en.wikibooks.org/wiki/Foundations_of_Computer_Science/Abstraction_and_Recursion)
+
+
+!!! danger
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+    ```python
+    import tensorflow as tf
+    test
+    a=b
+    ```
