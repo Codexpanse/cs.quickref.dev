@@ -1,8 +1,10 @@
-### Level 1
+# Bytecode
+
+### Layman (level 1)
 
 Computer program converted into a more compact format for efficient execution. Not human-readable. Usually lays outside of the scope of responsibilities of a software developer.
 
-### Level 2-3
+### Beginner, Expert (levels 2-3)
 
 Program code compiled from source code into low-level code for a software interpreter to execute. May be executed by a virtual machine (e.g. Java Virtual Machine), or may be further compiled into machine code for the processor to execute. Bytecode may allow a single compiled binary to run on a diverse array of platforms.
 
