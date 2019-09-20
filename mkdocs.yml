@@ -3,6 +3,9 @@ site_name: Computer Science Reference
 theme:
   favicon: 'images/favicon.png'
   name: 'material'
+  palette:
+    primary: 'Black'
+    accent: 'indigo'
   font:
     text: 'Verdana'
     code: 'Consolas'
@@ -29,3 +32,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/codexpanse'
+    - type: 'twitter'
+      link: 'https://twitter.com/codexpanse'
+    - type: 'youtube'
+      link: 'https://youtube.com/codexpanse'

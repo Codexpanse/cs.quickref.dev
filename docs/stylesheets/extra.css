@@ -32,3 +32,20 @@ nav.md-nav.md-nav--primary > ul.md-nav__list > :first-child {
 div.md-sidebar.md-sidebar--secondary {
   display: none;
 }
+
+/* links in article */
+.md-content a {
+  text-decoration: underline;
+}
+
+.md-content h1, .md-content h2, .md-content h3, .md-content h4 {
+  font-weight: bold;
+}
+
+.md-content h1 {
+  color: black;
+}
+
+.md-footer-nav {
+  display: none;
+}
