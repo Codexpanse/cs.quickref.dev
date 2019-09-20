@@ -4,7 +4,7 @@
 
 A series of precise instructions that can be performed by a person or a computer. For example, [partial sums algorithm](http://everydaymath.uchicago.edu/teaching-topics/computation/add-partial-sums.html) for adding numbers.
 
-Algorithms can be translated into code in a [programming language]("/p/programming-language").
+Algorithms can be translated into code in a [programming language](/p/programming-language).
 
 ### Beginner (level 2)
 
@@ -12,7 +12,7 @@ An unambiguous specification for performing calculation, data processing, automa
 
 ### Expert (level 3)
 
-A [procedure]("/p/procedure") that can be implemented on a [Turing machine]("/t/turing-machine").
+A [procedure](/p/procedure) that can be implemented on a [Turing machine](/t/turing-machine).
 
 ---
 
