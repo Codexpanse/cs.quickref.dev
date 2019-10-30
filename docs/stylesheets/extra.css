@@ -1,41 +1,41 @@
-nav.md-nav {
-  overflow: visible !important;
-  max-height: 100% !important;
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"
 }
 
-.nav.md-nav.md-nav--secondary {
-  display: none !important;
-}
-
+/* hide left navbar header */
 label.md-nav__title.md-nav__title--site {
   display: none;
 }
 
-
+/* do not show left navbar section headers */
 nav.md-nav.md-nav--primary > ul.md-nav__list > :first-child {
   display: none !important;
 }
 
-.js .md-nav__item--nested>.md-nav__link:after {
-  content: "";
-}
-
-.md-nav__item {
-  margin-bottom: 1rem;
-}
-
-
-/* Do not show sidebar in article */
-.md-content {
-  margin-right: 0;
-}
-div.md-sidebar.md-sidebar--secondary {
-  display: none;
+.md-nav__link--active {
+  color: black !important;
+  font-weight: bold;
 }
 
 /* links in article */
-.md-content a {
+article a {
+  color: blue !important;
   text-decoration: underline;
+}
+
+article h1 {
+  color: inherit !important;
+  font-weight: bolder !important;
+}
+
+article h2 {
+  border-top: 1px solid whitesmoke;
+  font-weight: normal !important;
+  padding-top: 2rem;
+}
+
+pre, code {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 }
 
 .md-content h1, .md-content h2, .md-content h3, .md-content h4 {
@@ -47,5 +47,35 @@ div.md-sidebar.md-sidebar--secondary {
 }
 
 .md-footer-nav {
+  display: none;
+}
+
+/* =============================== */
+/* SPECIFIC STYLES FOR CS QUICKREF */
+
+nav.md-nav {
+  overflow: visible !important;
+  max-height: 100% !important;
+}
+
+.nav.md-nav.md-nav--secondary {
+  display: none !important;
+}
+
+
+.js .md-nav__item--nested>.md-nav__link:after {
+  content: "";
+}
+
+.md-nav__item {
+  margin-bottom: 1rem;
+}
+
+/* Do not show sidebar in article */
+.md-content {
+  margin-right: 0;
+}
+
+div.md-sidebar.md-sidebar--secondary {
   display: none;
 }
